@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+  background: transparent;
+}
+
+select {
+  background: transparent
+}
+
+.choice {
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.border-bottom-span {
+  border-bottom: 2px solid black;
+  width: 20%;
+  flex-basis: 75%;
+}
+
+@media print {
+  #printPageButton {
+    display: none;
+  }
+}
